@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>09:21</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-xl"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-xl"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Mr.Sunshine</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Saturday, September 21</div>
+
+      <div class="message-row">
+        <img
+          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEyMDlfMTI4%2FMDAxNjA3NDg4ODE3NjU5.I5GgSjT-YVr8XRDoaeMKLgFHEkJpJ1qeUKltd6VrOm4g.uH5WPKZlecDRT2b7SWHToyPaELl3rQJFlhivyorjMusg.JPEG.rnr319%2FScreenshot_2020-12-09_at_13.35.40.jpg&type=a340"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Mr.Sunshine</span>
+          <div class="message__info">
+            <span class="message__bubble">Hello, how can I help you?</span>
+            <span class="message__time">07:07</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Please tell me the plot.</span>
+            <span class="message__time">07:10</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row2">
+        <img
+          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEyMDlfMTI4%2FMDAxNjA3NDg4ODE3NjU5.I5GgSjT-YVr8XRDoaeMKLgFHEkJpJ1qeUKltd6VrOm4g.uH5WPKZlecDRT2b7SWHToyPaELl3rQJFlhivyorjMusg.JPEG.rnr319%2FScreenshot_2020-12-09_at_13.35.40.jpg&type=a340"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Mr.Sunshine</span>
+          <div class="message__info">
+            <span class="message__bubble">
+              The drama depicts the story of a boy who,
+              <br />after being abandoned by his country Korea <br />and
+              boarding an American warship during the Shinmi Yangyo (1871),
+              <br />returns to Korea as a U.S. Marine <br />and takes up
+              residence there, leading to various events.</span
+            >
+            <span class="message__time">07:20</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-solid fa-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message" />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up-long fa-lg"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your Screen is too big.</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/b1dbb37309.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
