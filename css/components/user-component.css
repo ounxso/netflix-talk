@@ -62,6 +62,7 @@
 .user-component__time {
   display: block;
   margin-bottom: 8px;
+  font-size: 14px;
 }
 
 .user-component2,
@@ -179,7 +180,8 @@
 }
 
 .user-component-save__text {
-  padding-top: 5px;
+  font-size: 14px;
+  padding-top: 3px;
 }
 
 .user-component-save__img {
