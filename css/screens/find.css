@@ -11,8 +11,8 @@
 }
 
 .find-icons__icons i {
-  font-size: 35px;
-  margin-bottom: 18px;
+  font-size: 25px;
+  margin-bottom: 15px;
 }
 
 .recommended-programs {
@@ -23,15 +23,15 @@
 }
 
 .recommended-programs__title {
-  font-size: 15px;
+  font-size: 13px;
   opacity: 0.7;
 }
 
 .recommended-programs span {
   display: block;
   opacity: 0.7;
-  font-size: 17px;
-  margin: 100px 0px;
+  font-size: 15px;
+  margin: 50px 0px;
   text-align: center;
 }
 
@@ -40,9 +40,11 @@
   justify-content: space-between;
   opacity: 0.7;
   margin-bottom: 25px;
+  font-size: 15px;
 }
 
 .open-chat__header span {
+  font-size: 13px;
   opacity: 0.6;
 }
 
@@ -55,16 +57,19 @@
 }
 
 .open-post__title {
+  font-size: 15px;
   font-weight: 600;
   margin-bottom: 7px;
 }
 
 .open-post__hashtags {
+  font-size: 14px;
   text-transform: uppercase;
   opacity: 0.6;
 }
 
 .open-post__members {
+  font-size: 13px;
   display: flex;
   align-items: center;
   margin-top: 7px;
@@ -95,7 +100,7 @@
 
 .open-post__member-count {
   opacity: 0.6;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .open-post__members .divider {
@@ -110,8 +115,8 @@
 }
 
 .open-post__photo img {
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   border-radius: 10px;
 }
 
@@ -124,6 +129,7 @@
   position: absolute;
   bottom: 8px;
   right: 10px;
+  font-size: 12px;
 }
 
 .open-post__heart-count span {
@@ -139,6 +145,7 @@
   position: absolute;
   bottom: 8px;
   right: 3px;
+  font-size: 12px;
 }
 
 .open-post__heart-count2 span {
