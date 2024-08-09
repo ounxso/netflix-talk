@@ -6,11 +6,11 @@
 .user-component__column:first-child {
   display: flex;
   align-items: center;
-  margin-top: 18px;
+  margin-top: 15px;
 }
 
 .user-component:nth-child(2) {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .user-component__avatar {
   width: 70px;
