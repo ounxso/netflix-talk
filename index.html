@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Netflix Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>09:21</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-xl"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">
+        <span class="welcome-header-title__welcometo">Welcome to</span>
+        <span class="welcome-header-title__netflix">Netflix </span>
+        <span class="welcome-header-title__talk">talk</span>
+      </h1>
+      <p class="welcome-header__text">
+        If you have a Netflix Talk Account, log in with your email or phone
+        number.
+      </p>
+    </header>
+
+    <form action="programs.html" method="get" id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Netflix Talk Account or Password</a>
+    </form>
+
+    <div id="splash-screen">
+      <img
+        src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTEwMDdfMTg2%2FMDAxNTcwNDEyNTE0NDcw.lB5lwS4hwbKKAeIKLYDdOx2L71pdQAavboB3SmnBg1og.K0SVguf-jRtVjlPtijC216w9BMbhe2QZyMsnjsbdU6gg.PNG.dud2ekek%2Fq00.PNG&type=sc960_832"
+      />
+    </div>
+
+    <div id="no-mobile">
+      <span>Your Screen is too big.</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/b1dbb37309.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
