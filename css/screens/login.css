@@ -1,5 +1,5 @@
 .welcome-header {
-  margin: 120px 0px;
+  margin: 90px 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -8,33 +8,33 @@
 
 .welcome-header__title {
   font-family: Bebas Neue;
-  margin-bottom: 60px;
+  margin-bottom: 45px;
 }
 
 .welcome-header-title__welcometo {
   font-size: 35px;
   display: block;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .welcome-header-title__netflix {
-  font-size: 65px;
+  font-size: 60px;
   color: var(--red);
 }
 
 .welcome-header-title__talk {
-  font-size: 65px;
+  font-size: 60px;
 }
 
 .welcome-header__text {
   width: 60%;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 #login-form {
   display: flex;
   flex-direction: column;
-  margin: 0px 30px;
+  margin: 0px 20px;
 }
 
 #login-form input:not(:nth-child(3)) {
