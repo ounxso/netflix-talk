@@ -103,6 +103,18 @@
   font-size: 13px;
 }
 
+.message__bubble2 {
+  background-color: rgba(75, 75, 75);
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 13px;
+  padding-right: 10px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 7px;
+  font-size: 13px;
+}
+
 .message__time {
   opacity: 0.5;
   font-size: 13px;
