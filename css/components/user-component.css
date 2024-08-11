@@ -146,7 +146,7 @@
 .user-component-notification__list {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .user-component-notification__img {
