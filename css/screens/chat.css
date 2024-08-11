@@ -117,7 +117,7 @@
 
 .message__time {
   opacity: 0.5;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 @keyframes Send {
